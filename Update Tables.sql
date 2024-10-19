@@ -196,9 +196,9 @@ SELECT * FROM Homework;
 DELETE FROM Homework WHERE HomeworkID = 6;
 SELECT * FROM Homework;
 
--- Update: Change the AssignmentID for HomeworkID = 5
+-- Update: Change the AssignmentID for HomeworkID = 4
 SELECT * FROM Homework;
-UPDATE Homework SET AssignmentID = 4 WHERE HomeworkID = 5;
+UPDATE Homework SET AssignmentID = 4 WHERE HomeworkID = 4;
 SELECT * FROM Homework;
 
 -----------------------------------------
