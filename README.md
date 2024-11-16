@@ -1,5 +1,33 @@
-The Student Recordkeeping Database Project encompasses creating a one-stop platform to help college students manage all aspects of their campus life — everything from academics to finances, housing, dining, and extracurriculars. As students ourselves, we understand that it can be overwhelming to juggle so many different systems, like academic portals, housing apps, and dining platforms. Our goal is to simplify the aforementioned difficulties by bringing students together in a single, easy-to-use platform. Unlike most systems that just focus on grades and academic performance, our platform covers everything that impacts student life, including clubs, events, meal plans, housing details, as well as finances.
+# Student Recordkeeping Database Project  
 
-Therefore, we created a full-stack web application with CRUD functionalities. The user, a college student, will be able to store, update, retrieve, and delete information about various facets of their college life. The user is prompted to log in with their Google Account, after which they are able to perform SQL queries (namely, SELECT, INSERT, UPDATE, and DELETE) various entries in their database via our website. 
+The **Student Recordkeeping Database Project** is a comprehensive, full-stack web application designed to help college students manage every aspect of their campus life from a single platform.  
 
-To run this website on your own computer, please clone this repository, and the following commands, in this order: "npm install" and "npm run dev"
+## Overview  
+As college students, we understand how overwhelming it can be to juggle various systems for academics, housing, dining, finances, and extracurricular activities. This project aims to simplify that experience by consolidating everything into one easy-to-use platform.  
+
+Unlike most systems that focus solely on grades and academic performance, our platform covers all facets of student life, including:  
+- Academics  
+- Finances  
+- Housing details  
+- Meal plans  
+- Clubs and events  
+
+## Features  
+Our application provides full **CRUD** (Create, Read, Update, Delete) functionality, allowing users to:  
+- Store, update, retrieve, and delete information about various aspects of their college life.  
+- Log in securely using their **Google Account**.  
+- Perform **SQL operations** (SELECT, INSERT, UPDATE, DELETE) directly through the platform.  
+
+## Getting Started  
+To run this project locally:  
+
+1. **Clone this repository:**  
+   ```bash  
+   git clone https://github.com/justinlu200014/CS-4347-Group-6-project.git  
+    ```
+2. **Open the project in VSCode or your preferred editor.**
+3. **Install dependencies and start the development server:**
+   ```bash 
+   npm install  
+   npm run dev
+   ```
