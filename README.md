@@ -2,4 +2,4 @@ The Student Recordkeeping Database Project encompasses creating a one-stop platf
 
 Therefore, we created a full-stack web application with CRUD functionalities. The user, a college student, will be able to store, update, retrieve, and delete information about various facets of their college life. The user is prompted to log in with their Google Account, after which they are able to perform SQL queries (namely, SELECT, INSERT, UPDATE, and DELETE) various entries in their database via our website. 
 
-To run this website on your own computer, please clone this repository, and the following commands, in this order: "npm install" and "npm run dev"
+To run this website on your own computer, please clone this repository, and run the following commands on VSCode or another editor, in this order: "npm install" and "npm run dev"
