@@ -16,7 +16,7 @@ Unlike most systems that focus solely on grades and academic performance, our pl
 Our application provides full **CRUD** (Create, Read, Update, Delete) functionality, allowing users to:  
 - Store, update, retrieve, and delete information about various aspects of their college life.  
 - Log in securely using their **Google Account**.  
-- Perform **SQL operations** (e.g., SELECT, INSERT, UPDATE, DELETE) directly through the platform.  
+- Perform **SQL operations** (SELECT, INSERT, UPDATE, DELETE) directly through the platform.  
 
 ## Getting Started  
 To run this project locally:  
