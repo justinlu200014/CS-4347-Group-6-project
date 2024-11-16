@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
+import Welcome from './pages/Welcome';
 import Query from './pages/Query';
 import Insert from './pages/Insert';
 import Delete from './pages/Delete';
@@ -8,33 +9,6 @@ import Update from './pages/Update';
 import Quit from './pages/Quit';
 import { auth, provider, signInWithPopup } from './firebaseConfig';
 import './App.css';
-
-const Welcome = ({ user, handleLogin }) => {
-  return (
-    <div className="text-center p-8">
-      <h1 className="text-5xl font-bold mb-6">Welcome!</h1>
-      {user ? (
-        <div>
-          <p className="text-2xl mb-4">Hello, {user.displayName}</p>
-          <img
-            src={user.photoURL}
-            alt="Profile"
-            className="w-64 h-64 rounded-full mx-auto mb-6"
-          />
-          <p className="text-xl mb-6">Welcome to the Student Database. Use the sidebar to perform CRUD operations.</p>
-
-        </div>
-      ) : (
-        <button
-          onClick={handleLogin}
-          className="px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-        >
-          Sign in with Google
-        </button>
-      )}
-    </div>
-  );
-};
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -58,9 +32,9 @@ const App = () => {
 
   return (
     <Router>
-      <div style={{ display: 'flex' }}>
+      <div className="flex min-h-screen bg-gray-50">
         <Sidebar isLoggedIn={!!user} />
-        <div style={{ marginLeft: '250px', padding: '20px' }}>
+        <div className="flex-1 ml-64">
           <Routes>
             <Route
               path="/"
